@@ -8,13 +8,13 @@
 </script>
 
 <div class="container">
-	<div class="mx-5 my-5">
-		<h1 class="mb-2 text-2xl font-bold">{title}</h1>
-		<p>{greetings}</p>
+	<div class="mx-5 py-5">
+		<h1 class="mb-2 text-2xl text-white font-bold">{title}</h1>
+		<p class="text-white">{greetings}</p>
 
 		<div class="my-5">
-			<p class="text-xl font-bold">Tujuan:</p>
-			<ul class="list-inside list-disc">
+			<p class="text-xl text-white font-bold">Tujuan:</p>
+			<ul class="list-inside list-disc text-white">
 				{#each purpose as item}
 					<li class="-indent">{item}</li>
 				{/each}
@@ -26,7 +26,7 @@
 				<div class="flex justify-center">
 					<a
 						href={path}
-						class="w-full rounded-full bg-white px-4 py-2 text-center font-bold tracking-wide text-blue-400 shadow-lg transition-all duration-75 focus:translate-y-1 focus:text-black focus:shadow-sm"
+						class="w-full text-center rounded-full bg-white px-4 py-2 font-bold tracking-wide text-orange-600 shadow-lg transition-all duration-75 focus:translate-y-1 focus:shadow-sm"
 					>
 						{title}
 					</a>

@@ -17,14 +17,14 @@
 
 <svelte:head>
 	<meta name="theme-color" content="#111827" />
-	<title>Educasea</title>
+	<title>AyoBangkit!</title>
 </svelte:head>
 
-<div class="sticky top-0 z-20 flex h-16 w-full justify-center bg-yellow-300 align-middle">
+<div class="sticky top-0 z-20 flex h-16 w-full justify-center bg-rose-400 shadow-lg align-middle">
 	<h1 class="my-auto text-2xl font-black tracking-wider text-white drop-shadow-md">AyoBangkit!</h1>
 </div>
 
-<div>
+<div class="bg-gradient-to-t from-orange-400 to-rose-400">
 	{#key data.url}
 		<div class="h-[100vh]">
 			<div in:scale={{ duration: 300, easing: cubicInOut, opacity: 0 }}>

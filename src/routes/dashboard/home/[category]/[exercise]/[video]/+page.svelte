@@ -5,7 +5,7 @@
 </script>
 
 <div class="container">
-    <div class="mx-5 my-5 h-full">
+    <div class="mx-5 py-5 h-full">
         <div class="flex justify-center">
             <iframe
                 class="w-full"
