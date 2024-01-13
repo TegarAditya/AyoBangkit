@@ -1,0 +1,1 @@
+export { exercisesData } from "./exerciseData";
